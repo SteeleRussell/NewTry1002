@@ -1,7 +1,22 @@
 {
-"dependencies": {
+  "name": "NewTry1002",
+  "version": "1.0.0",
+  "description": "CKs Express Test on Render",
+  "main": "exercise1.js",
+  "repository": "https://github.com/SteeleRussell/NewTry1002",
+  "author": "CK",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node movies.js"
+  },
+  "dependencies": {
     "cookie-parser": "^1.4.6",
     "express": "^4.18.2",
     "multer": "^1.4.5-lts.1"
+  },
+  "engines": {
+    "node": ">=14"
+  }
 }
- }
+
